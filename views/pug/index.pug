@@ -1,0 +1,19 @@
+html
+  include ../includes/head.pug
+  link(rel='stylesheet', href='/public/style/index.css')
+body
+  .navbar-top
+    .title
+      img(src='https://avatars.githubusercontent.com/oa/1668627?s=60&u=19613dfb6e552d2e69aecd02c2cd06e24ffb3f2d&v=4')
+      h1 Chat Room Application 
+  // End
+  
+  if showLogin
+    include ../includes/signin.pug
+
+  if showRegistration
+    include ../includes/signup.pug
+  
+  include ../includes/footer.pug
+
+  script(defer, src='/public/scripts/form.js')

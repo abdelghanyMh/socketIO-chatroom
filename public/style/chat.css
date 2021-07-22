@@ -1,0 +1,68 @@
+.chat-box { 
+      width: 50%;
+    margin: auto;
+}
+#num-users{
+    text-align: end;
+    margin-right: 16px;
+    font-family: Courier New, Times New Roman;
+    color: lime;
+}
+
+
+form {
+  padding: 3px;
+  width: 500px;
+}
+
+form input {
+  background-color: #eee;
+  padding: 10px; 
+  width: 90%; 
+  margin-right: .5%;
+  border-radius: 5px
+}
+
+form button { 
+  width: 7%;
+      background: rgb(130 224 255 / 46%);
+
+  border: none; 
+      border-radius: 8px;
+  float: left;
+}
+form span { 
+  font-size: 37px;
+}
+#messages { 
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  height: 20em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#messages li { 
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) { 
+  background: #eee;
+}
+
+@media (max-width: 780px) {
+  body 
+  {
+        margin: 0px;
+  }
+  .chat {
+    padding: 4px;
+  }
+  .chat-box {
+    width: 100%;
+  }
+ 
+}

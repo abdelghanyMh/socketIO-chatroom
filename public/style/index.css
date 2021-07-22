@@ -1,0 +1,162 @@
+:root {
+  --desktop-font-size: 16px;
+  --mobile-font-size: 22px;
+}
+
+body{
+
+    font-weight: 500;
+
+  margin: 0px;
+}
+.navbar-top h1 {
+   letter-spacing: 0.132em;
+}
+.title { 
+
+    position: inherit;
+     left: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+}
+.title img{
+      width: 39px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+ 
+ form button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: #444;
+  cursor: pointer;
+  display: block;
+  font-size: 22px; /* fallback */
+  font-size: var(--mobile-font-size);
+  font-weight: 500;
+  margin: 3px 0 0 0;
+  padding: 10px;
+}
+
+/* sing in form */
+form button:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+form button#sign-in {
+  margin: 0;
+}
+
+form button#sign-in:disabled {
+  background-color: #ccc;
+  color: black;
+  cursor: default;
+}
+
+form button#toggle-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+  padding: 0;
+  /* Display at the top right of the password section */
+  position: absolute;
+  top: -4px;
+  right: 29px;
+}
+
+div#password-constraints {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+form h1 {
+  border-bottom: 1px solid #ccc;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+}
+
+form input {
+  border: 1px solid #ccc;
+  font-size: 22px; /* fallback */
+  font-size: var(--mobile-font-size);
+  padding: 15px;
+  width: 100%; /* fallback */
+}
+
+form input[type=email]:not(:focus):invalid,
+form input[type=password]:not(:focus):invalid {
+  color: red;
+  outline-color: red;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  font-size: var(--mobile-font-size);
+  font-weight: 500;
+  margin: 0 0 3px 0;
+}
+
+form section {
+  margin: 0 0 20px 0;
+  position: relative; /* for password toggle positioning */
+}
+
+.social-login{
+  border: none;
+   width: 439px;
+    margin: 12px auto;
+    background-color: #242729;
+    color: white;
+    border-radius: 6px;
+    }
+
+    .social-login:hover {
+  background-color: rgb(110, 108, 108);
+}
+    
+#signup {
+  text-align: center;
+}
+
+@media (min-width: 450px) {
+
+  form button {
+    font-size: 14px; /* fallback */
+    font-size: var(--desktop-font-size);
+  }
+  form button#sign-in {
+    margin: 40px 0 0 0;
+  }
+  div#password-constraints {
+    font-size: 14px;
+  }
+  form h1 {
+    font-size: 28px;
+    font-size: calc(2 * var(--desktop-font-size));
+    font-weight: 500;
+    margin: 0 0 50px 0;
+  }
+  form input {
+    font-size: 14px; /* fallback */
+    font-size: var(--desktop-font-size);
+  }
+  form label {
+    font-size: 14px; /* fallback */
+    font-size: var(--desktop-font-size);
+  }
+}
+/* end */

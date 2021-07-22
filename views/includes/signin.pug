@@ -1,0 +1,18 @@
+button.social-login(onclick="window.location.href='/auth/github'") Login with Github!
+form(action='/login' method='post')
+  h1 Sign in
+  section
+    label(for='username') Username
+    input#email(name='username' type='text' autocomplete='username' required pattern="[\p{L}\.\- ]+" autofocus='')
+  section
+    label(for='password') Password
+    button#toggle-password(type='button' aria-label='Show password as plain text. Warning: this will display your password on the screen.')
+      | Show
+      | password
+    input#password(name='password' type='password' autocomplete='current-password' minlength='8' aria-describedby='password-constraints' required='')
+    #password-constraints
+      | Eight or more characters, with at least one lowercase and one uppercase letter.
+  button#sign-in Sign in
+div#signup
+  | Don&rsquo;t have an account? 
+  a(href='/signup') Sign up

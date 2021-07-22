@@ -1,0 +1,38 @@
+html
+  include ../includes/head.pug
+  link(rel='stylesheet',href='/public/style/profile.css')
+  body
+    
+    // Navbar top
+.navbar-top
+  .title
+    h1 Profile
+  // Navbar
+  ul
+    li
+      button(onclick="window.location.href='/chat'")
+        span.material-icons &#xe0b7;
+    li
+      button(onclick="window.location.href='/logout'") Logout
+  // End
+.gradient
+  .panel
+    #inside-panel
+      .gradient-border
+        h1 #{name}
+        hr
+        img(src=photo)
+        ul
+          li
+            b email:
+            span #{email}
+          li
+            b login count:
+            span #{login_count}
+          li
+            b joined:
+            span #{joined}
+            
+include ../includes/footer.pug
+
+  

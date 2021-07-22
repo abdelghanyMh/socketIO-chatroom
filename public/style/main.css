@@ -1,0 +1,91 @@
+/* titles font */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* chat font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+
+/* NavbarTop */
+
+.navbar-top {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 1px 2px 0px grey;
+    height: 70px;
+}
+
+.title {
+    font-family: "Dancing Script", cursive;
+    padding-top: 15px;
+    position: absolute;
+    left: 45%;
+}
+
+.navbar-top ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 15px 40px 19px;
+}
+
+.navbar-top ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar-top ul li a {
+    color: #333;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-top button {
+    height: 39px;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0px 1px 3px 1px #726e60;
+    font-weight: bold;
+}
+
+.navbar-top h1 {
+    margin: 0;
+    height: auto;
+    font-family: "Great Vibes", cursive;
+}
+
+
+/* End */
+
+
+/* footer */
+
+footer {
+    display: grid;
+    align-self: end;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #ff00006e;
+    font-family: 'Great Vibes';
+    font-size: 26px;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 0.181em;
+}
+
+footer a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+/* end */
