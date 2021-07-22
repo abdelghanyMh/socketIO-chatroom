@@ -1,5 +1,4 @@
 # socketIO-chatroom-
-A simple Chat application with a sign-in system.
 
 A simple chat application built in  [Node.js](https://nodejs.org/)  using  [Express](http://expressjs.com/)  and  [Socket.IO](https://socket.io/).
 I'm also using:
@@ -27,3 +26,5 @@ View  **live demo**  here:  [https://advancednode.abdelghanymh.repl.co](https://
 npm start
 
 > View on localhost:3000
+
+> special thanks to [freecodecamp](https://www.freecodecamp.org/learn)
