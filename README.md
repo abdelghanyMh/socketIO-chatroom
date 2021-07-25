@@ -1,6 +1,6 @@
 # socketIO-chatroom-
 
-A simple chat application built in  [Node.js](https://nodejs.org/)  using  [Express](http://expressjs.com/)  and  [Socket.IO](https://socket.io/).
+A simple chat application with sign-in system. built in  [Node.js](https://nodejs.org/)  using  [Express](http://expressjs.com/)  and  [Socket.IO](https://socket.io/).
 I'm also using:
 1. [Passport](https://www.passportjs.org/) to manage authentication,
 2. [Pug](https://pugjs.org/api/getting-started.html) to create reusable templates for quickly building the front end,
