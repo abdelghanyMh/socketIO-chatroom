@@ -15,7 +15,9 @@ View  **live demo**  here:  [https://advancednode.abdelghanymh.repl.co](https://
 
 #### 1. Clone the Repository
 
-> git clone https://github.com/abdelghanyMh/socketIO-chatroom-.git & cd socketIO-chatroom-
+> git clone https://github.com/abdelghanyMh/socketIO-chatroom-.git
+
+>  cd socketIO-chatroom-
 
 #### 2. Install the Dependencies
 
